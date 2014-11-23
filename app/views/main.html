@@ -1,0 +1,47 @@
+<div class="row">
+	<div class="col-md-6">
+		<div class="project" ng-repeat="data in projectdata" style="background-color: {{ getLocationColor(data.location) }}" >
+			<h2>{{data.gig}}</h2>
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<b>Date:</b> {{data.startingOn}}	
+				</div>
+				<div class="col-md-6 text-center">
+					<b>Probablity:</b> {{data.probability}}	
+				</div>
+			</div>
+			<div class="required-consultants">
+				<div class="consultant" ng-repeat="consultant in data.requiredConsultants" >
+				<span class="consultant-role">{{consultant.role}}</span>
+				<br />
+				{{consultant.grade}}	
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6" >
+		<div class="available-consultant" ng-repeat="consultant in consultantdata" style="background-color: {{ getLocationColor(consultant.location) }}">
+			<div class="available-consultant-name">{{consultant.name}}</div>
+<!-- 				<b>Role:</b> {{consultant.role}}
+				<br/>	
+				<b>Grade:</b> {{consultant.grade}}
+				<br/>	
+			<span><b>Available from:</b> {{consultant.availableFrom}}</span> -->
+			<table class="table">
+				<tr>
+					<td><b>Role</b></td>
+					<td>{{ consultant.role }}</td>
+				</tr>
+				<tr>
+					<td><b>Grade</b></td>
+					<td>{{ consultant.grade }}</td>
+				</tr>
+				<tr>
+					<td><b>Available</b></td>
+					<td>{{ consultant.availableFrom }}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+

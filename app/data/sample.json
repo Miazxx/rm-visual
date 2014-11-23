@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "gig": "suncorp",
+            "startingOn": "10/11/2014",
+            "probability": "80%",
+            "location": "sydney",
+            "requiredConsultants": [
+            	{
+           			"role": "Dev",
+            		"grade": "Spec"
+        		}
+    		]
+        },
+
+        {
+            "gig": "IOOF",
+            "startingOn": "02/02/2014",
+            "probability": "20%",
+            "location" : "melbourne",
+          	"requiredConsultants": [
+          		{
+          			"role": "Dev",
+            		"grade": "Con"
+            	},
+            	{
+            		"role": "BA",
+            		"grade": "Lead"	
+            	},
+            	{
+            		"role": "BA",
+            		"grade": "Snr"	
+            	},
+            	{
+            		"role": "BA",
+            		"grade": "Grad"	
+            	},
+            	{
+            		"role": "BA",
+            		"grade": "Prin"	
+            	}
+    		]
+        }
+    ],
+    "consultants": [
+    	{
+    		"name": "Erlangga i have a long name Tjhie",
+    		"availableFrom": "now",
+    		"role": "Dev",
+    		"grade": "Lead",
+    		"location": "melbourne"
+    	}
+    ]
+}
