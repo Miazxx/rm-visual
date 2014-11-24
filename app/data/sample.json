@@ -1,7 +1,8 @@
 {
     "projects": [
         {
-            "gig": "suncorp",
+            "account": "suncorp",
+            "gig": "new media some where some thing",
             "startingOn": "10/11/2014",
             "probability": "80%",
             "location": "sydney",
@@ -11,6 +12,20 @@
             		"grade": "Spec"
         		}
     		]
+        },
+
+        {
+            "account": "suncorp",
+            "gig": "ignite magic",
+            "startingOn": "10/11/2014",
+            "probability": "80%",
+            "location": "brisbane",
+            "requiredConsultants": [
+                {
+                    "role": "Dev",
+                    "grade": "Spec"
+                }
+            ]
         },
 
         {
