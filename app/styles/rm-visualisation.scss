@@ -9,8 +9,27 @@ h2 {
 }
 
 .project {
+
 	.this-week {
-		margin: 2%
+		margin: 2%;
 	}
 
+	.next-week {
+		margin: 2%;
+	}
+
+	.week-after {
+		margin: 2%;
+	}
+}
+
+
+.sydney {
+	background-color: $thoughtworks-blue;
+}
+.brisbane {
+	background-color: $thoughtworks-mint;
+}
+.melbourne {
+	background-color: yellow;
 }

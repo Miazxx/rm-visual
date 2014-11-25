@@ -14,17 +14,4 @@ angular.module('rmVisualApp')
     	$scope.projectdata = data.projects;
     	$scope.consultantdata = data.consultants;
     });
-
-    $scope.getLocationColor = function (location) {
-    	switch (location) {
-    		case "melbourne":
-    			return "red";
-    		case "sydney":
-    			return "green";
-			case "brisbane":
-				return "yellow";
-			default:
-				return "blue";
-    	}
-    };
   });
