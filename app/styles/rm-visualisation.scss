@@ -12,24 +12,52 @@ h2 {
 
 	.this-week {
 		margin: 2%;
+
+		.sydney {
+			background-color: $thoughtworks-blue;
+		}
+		.brisbane {
+			background-color: green;
+		}
+		.melbourne {
+			background-color: yellow;
+		}
+
 	}
 
 	.next-week {
 		margin: 2%;
+
+		.sydney {
+			background-color: $thoughtworks-purple;
+		}
+		.brisbane {
+			background-color: green;
+		}
+		.melbourne {
+			background-color: yellow;
+		}
+
 	}
 
 	.week-after {
 		margin: 2%;
+
+		.sydney {
+			background-color: $thoughtworks-mint;
+		}
+		.brisbane {
+			background-color: green;
+		}
+		.melbourne {
+			background-color: yellow;
+		}
+
+		
 	}
-}
 
 
-.sydney {
-	background-color: $thoughtworks-blue;
+
+		
 }
-.brisbane {
-	background-color: $thoughtworks-mint;
-}
-.melbourne {
-	background-color: yellow;
-}
+
